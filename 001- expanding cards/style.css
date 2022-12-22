@@ -1,0 +1,27 @@
+div{
+    margin-top: 60px;
+    margin-left: 110px;
+    margin-right: 110px;
+    display: flex;
+    gap: 20px;
+}
+
+img{
+    width: 100px;
+    height: 600px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+
+.currentImage{
+    transition: width 2s;
+    width:800px;
+    border-radius: 40px;
+}
+
+.prevImage{
+    transition: width 2s;
+    width:100px;
+    border-radius: 50px;
+}
